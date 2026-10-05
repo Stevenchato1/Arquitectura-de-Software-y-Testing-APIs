@@ -1,0 +1,13 @@
+id,nombre,email,plan,activo,edad,es_valida,motivo_invalidez
+1,Ana Lopez,ana.lopez@example.com,BASICO,true,24,True,OK
+2,Carlos Ramirez,carlos.ramirez@example.com,PLUS,true,31,True,OK
+3,Maria Gonzalez,maria.gonzalez@example.com,PREMIUM,true,27,True,OK
+4,Luis Hernandez,luis.hernandez@example.com,BASICO,false,42,True,OK
+5,Sofia Martinez,sofia.martinez@example.com,PREMIUM,true,36,True,OK
+6,,juan.perez@example.com,BASICO,true,25,False,Nombre obligatorio vacio
+7,Pedro Picapiedra,pedro.picapiedra_at_example.com,PLUS,true,30,False,Email sin formato valido
+8,Laura Gomez,laura.gomez@example.com,VIP_SUPER,true,28,False,Plan inexistente/invalido
+9,Mateo Torres,mateo.torres@example.com,BASICO,true,12,False,Edad menor al minimo (16)
+10,Elena Rostova,elena.rostova@example.com,PREMIUM,true,95,False,Edad mayor al maximo (90)
+11,Javier Diaz,javier.diaz@example.com,PLUS,si,29,False,Campo activo no es booleano
+12,Carmen Ortiz,carmen.ortiz@example.com,BASICO,true,-5,False,Edad negativa out-of-range

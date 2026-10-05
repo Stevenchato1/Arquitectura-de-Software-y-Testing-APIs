@@ -1,0 +1,1045 @@
+{
+  "info": {
+    "_postman_id": "0335ebcb-1e11-4634-853c-d686e515cc93",
+    "name": "Mock-FitZone",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "36825596"
+  },
+  "item": [
+    {
+      "name": "GET All Clases",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{URL}}/clases",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "clases"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/clases",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"1667-Nt6EaDlM9lo9aWrWCHts5RmJ43E\""
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:43:19 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Jorge Torres\",\n        \"cupoMaximo\": 20,\n        \"duracionMin\": 60\n    },\n    {\n        \"id\": 2,\n        \"nombre\": \"Yoga\",\n        \"instructor\": \"Laura Sanchez\",\n        \"cupoMaximo\": 15,\n        \"duracionMin\": 60\n    },\n    {\n        \"id\": 3,\n        \"nombre\": \"CrossFit\",\n        \"instructor\": \"Miguel Perez\",\n        \"cupoMaximo\": 12,\n        \"duracionMin\": 45\n    },\n    {\n        \"id\": 4,\n        \"nombre\": \"Pilates\",\n        \"instructor\": \"Daniela Cruz\",\n        \"cupoMaximo\": 10,\n        \"duracionMin\": 90\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Oscar Robles\",\n        \"cupoMaximo\": 20,\n        \"duracionMin\": 60,\n        \"id\": 5\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"\",\n        \"cupoMaximo\": 20,\n        \"duracionMin\": 60,\n        \"id\": 6\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 0,\n        \"duracionMin\": 60,\n        \"id\": 7\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 0,\n        \"duracionMin\": 121,\n        \"id\": 8\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 29,\n        \"id\": 9\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 10\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 11\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 12\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 13\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 14\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 15\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 16\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 17\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 18\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 19\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 20\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 21\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 22\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 23\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 24\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 25\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 26\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 27\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 28\n    },\n    {\n        \"id\": 29\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 30\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 31\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 32\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 33\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 34\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 35\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 36\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 37\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 38\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 39\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 40\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 41\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 42\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 43\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 44\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 45\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Steven \",\n        \"cupoMaximo\": 1,\n        \"duracionMin\": 30,\n        \"id\": 46\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Jorge Torres\",\n        \"cupoMaximo\": 20,\n        \"duracionMin\": 60,\n        \"id\": 47\n    },\n    {\n        \"nombre\": \"Spinning\",\n        \"instructor\": \"Jorge Torres\",\n        \"cupoMaximo\": 20,\n        \"duracionMin\": 60,\n        \"id\": 48\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "POST Clases",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"Spinning\",\r\n    \"instructor\": \"Jorge Torres\",\r\n    \"cupoMaximo\": 20,\r\n    \"duracionMin\": 60\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/clases",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "clases"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "201",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombre\": \"Spinning\",\r\n    \"instructor\": \"Jorge Torres\",\r\n    \"cupoMaximo\": 20,\r\n    \"duracionMin\": 60\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, X-HTTP-Method-Override, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Location"
+            },
+            {
+              "key": "Location",
+              "value": "http://localhost:3000/clases/49"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "111"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"6f-vK9NflxhL0pwi21oz0n+0FOqpFg\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:44:17 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"nombre\": \"Spinning\",\n    \"instructor\": \"Jorge Torres\",\n    \"cupoMaximo\": 20,\n    \"duracionMin\": 60,\n    \"id\": 49\n}"
+        },
+        {
+          "name": "Sin Body",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, X-HTTP-Method-Override, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "Access-Control-Expose-Headers",
+              "value": "Location"
+            },
+            {
+              "key": "Location",
+              "value": "http://localhost:3000/clases/49"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "14"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"e-BBd+VusdK6mHlb0nrmca4XODbWg\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:48:50 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 49\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET Clases X ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{URL}}/clases/{{ID_CLASE}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "clases",
+            "{{ID_CLASE}}"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/clases/{{ID_CLASE}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "{{ID_CLASE}}"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "111"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"6f-vK9NflxhL0pwi21oz0n+0FOqpFg\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:44:37 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"nombre\": \"Spinning\",\n    \"instructor\": \"Jorge Torres\",\n    \"cupoMaximo\": 20,\n    \"duracionMin\": 60,\n    \"id\": 49\n}"
+        },
+        {
+          "name": "ID Incorrecto",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{URL}}/clases/-1",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "-1"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:47:15 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{}"
+        }
+      ]
+    },
+    {
+      "name": "PUT Clases",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"Swinning\",\r\n    \"instructor\": \"Steven Huasupoma\",\r\n    \"cupoMaximo\": 20,\r\n    \"duracionMin\": 100\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/clases/{{ID_CLASE}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "clases",
+            "{{ID_CLASE}}"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombre\": \"Swinning\",\r\n    \"instructor\": \"Steven Huasupoma\",\r\n    \"cupoMaximo\": 20,\r\n    \"duracionMin\": 100\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases/{{ID_CLASE}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "{{ID_CLASE}}"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "116"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"74-+0zF+7lKgw1jhMCZCetS+QNFLgI\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:44:51 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"nombre\": \"Swinning\",\n    \"instructor\": \"Steven Huasupoma\",\n    \"cupoMaximo\": 20,\n    \"duracionMin\": 100,\n    \"id\": 49\n}"
+        },
+        {
+          "name": "Sin Body",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases/{{ID_CLASE}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "{{ID_CLASE}}"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "14"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"e-BBd+VusdK6mHlb0nrmca4XODbWg\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:49:43 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 49\n}"
+        }
+      ]
+    },
+    {
+      "name": "PATCH Reserva",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"duracionMin\": 0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/clases/{{ID_CLASE}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "clases",
+            "{{ID_CLASE}}"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"duracionMin\": 0\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases/{{ID_CLASE}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "{{ID_CLASE}}"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "114"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"72-rDbJ/z1owdWPGZnAxoeQq4Fndl4\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:45:24 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"nombre\": \"Swinning\",\n    \"instructor\": \"Steven Huasupoma\",\n    \"cupoMaximo\": 20,\n    \"duracionMin\": 0,\n    \"id\": 49\n}"
+        }
+      ]
+    },
+    {
+      "name": "PATCH Reserva",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{URL}}/clases/{{ID_CLASE}}",
+          "host": [
+            "{{URL}}"
+          ],
+          "path": [
+            "clases",
+            "{{ID_CLASE}}"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases/{{ID_CLASE}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "{{ID_CLASE}}"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:45:42 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{}"
+        },
+        {
+          "name": "404",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{URL}}/clases/{{ID_CLASE}}",
+              "host": [
+                "{{URL}}"
+              ],
+              "path": [
+                "clases",
+                "{{ID_CLASE}}"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "key": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "key": "Expires",
+              "value": "-1"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "2"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 05 Oct 2026 01:48:21 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{}"
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "URL",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "ID_CLASE",
+      "value": "49"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "socios": [
+    {
+      "id": 1,
+      "nombre": "Ana Lopez",
+      "email": "ana.lopez@example.com",
+      "plan": "BASICO",
+      "activo": true,
+      "edad": 24
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Ramirez",
+      "email": "carlos.ramirez@example.com",
+      "plan": "PLUS",
+      "activo": true,
+      "edad": 31
+    },
+    {
+      "id": 3,
+      "nombre": "Maria Gonzalez",
+      "email": "maria.gonzalez@example.com",
+      "plan": "PREMIUM",
+      "activo": true,
+      "edad": 27
+    },
+    {
+      "id": 4,
+      "nombre": "Luis Hernandez",
+      "email": "luis.hernandez@example.com",
+      "plan": "BASICO",
+      "activo": false,
+      "edad": 42
+    },
+    {
+      "id": 5,
+      "nombre": "Sofia Martinez",
+      "email": "sofia.martinez@example.com",
+      "plan": "PREMIUM",
+      "activo": true,
+      "edad": 36
+    }
+  ],
+  "clases": [
+    {
+      "id": 1,
+      "nombre": "Spinning",
+      "instructor": "Jorge Torres",
+      "cupoMaximo": 20,
+      "duracionMin": 60
+    },
+    {
+      "id": 2,
+      "nombre": "Yoga",
+      "instructor": "Laura Sanchez",
+      "cupoMaximo": 15,
+      "duracionMin": 60
+    },
+    {
+      "id": 3,
+      "nombre": "CrossFit",
+      "instructor": "Miguel Perez",
+      "cupoMaximo": 12,
+      "duracionMin": 45
+    },
+    {
+      "id": 4,
+      "nombre": "Pilates",
+      "instructor": "Daniela Cruz",
+      "cupoMaximo": 10,
+      "duracionMin": 90
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "socioId": 1,
+      "claseId": 1,
+      "fecha": "2026-10-05",
+      "estado": "CONFIRMADA"
+    },
+    {
+      "id": 2,
+      "socioId": 2,
+      "claseId": 3,
+      "fecha": "2026-10-06",
+      "estado": "CONFIRMADA"
+    },
+    {
+      "id": 3,
+      "socioId": 3,
+      "claseId": 2,
+      "fecha": "2026-10-07",
+      "estado": "ASISTIO"
+    }
+  ]
+}

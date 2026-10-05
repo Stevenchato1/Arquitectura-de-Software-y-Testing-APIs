@@ -1,0 +1,173 @@
+### ============================================================
+### FITZONE - CONSUMO MOCK SERVER
+### ============================================================
+### Requiere:
+###   - Extension REST Client (humao.rest-client)
+###   - Mock Server de Postman activo
+###
+### IMPORTANTE:
+###   Solo debes cambiar la URL de mock en esta variable.
+###   Ningún request escribe la URL del mock directamente.
+###
+### Ejecución:
+###   - Coloca el cursor dentro de un bloque
+###   - Ctrl+Alt+R
+###   - O haz clic en "Send Request"
+### ============================================================
+
+@mock_url = https://a3de0c0b-6f7e-4dac-8c93-9b00803eaef9.mock.pstmn.io
+
+### ============================================================
+### 01 - GET
+### ============================================================
+
+### ------------------------------------------------------------
+### 01. GET - Listar clases
+### Esperado: 200 OK
+### ------------------------------------------------------------
+GET {{mock_url}}/clases
+Accept: application/json
+
+
+### ------------------------------------------------------------
+### 02. GET - Obtener clase por ID
+### Esperado: 200 OK
+### ------------------------------------------------------------
+GET {{mock_url}}/clases/49
+Accept: application/json
+
+
+### ------------------------------------------------------------
+### 03. GET - Obtener otra clase por ID
+### Esperado: 200 OK
+### ------------------------------------------------------------
+GET {{mock_url}}/clases/2
+Accept: application/json
+
+
+### ============================================================
+### 02 - POST
+### ============================================================
+
+### ------------------------------------------------------------
+### 04. POST - Crear clase
+### Esperado: 201 Created
+### ------------------------------------------------------------
+POST {{mock_url}}/clases
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Clase Mock",
+  "instructor": "Instructor Mock",
+  "cupoMaximo": 20,
+  "duracionMin": 60
+}
+
+
+### ------------------------------------------------------------
+### 05. POST - Crear otra clase
+### Esperado: 201 Created
+### ------------------------------------------------------------
+POST {{mock_url}}/clases
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Clase Mock 2",
+  "instructor": "Instructor Mock 2",
+  "cupoMaximo": 15,
+  "duracionMin": 45
+}
+
+
+### ============================================================
+### 03 - PUT
+### ============================================================
+
+### ------------------------------------------------------------
+### 06. PUT - Reemplazar clase completa
+### Esperado: 200 OK
+### ------------------------------------------------------------
+PUT {{mock_url}}/clases/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "Clase Reemplazada",
+  "instructor": "Instructor Actualizado",
+  "cupoMaximo": 18,
+  "duracionMin": 75
+}
+
+### ------------------------------------------------------------
+### 06. PUT - SIN BODY
+### Esperado: 200 OK
+### ------------------------------------------------------------
+PUT {{mock_url}}/clases/1
+Content-Type: application/json
+Accept: application/json
+
+
+
+### ============================================================
+### 04 - PATCH
+### ============================================================
+
+### ------------------------------------------------------------
+### 07. PATCH - Modificar instructor
+### Esperado: 200 OK
+### ------------------------------------------------------------
+PATCH {{mock_url}}/clases/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "instructor": "Instructor PATCH"
+}
+
+
+### ------------------------------------------------------------
+### 08. PATCH - Modificar cupo
+### Esperado: 200 OK
+### ------------------------------------------------------------
+PATCH {{mock_url}}/clases/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "cupoMaximo": 25
+}
+
+
+### ============================================================
+### 05 - DELETE
+### ============================================================
+
+### ------------------------------------------------------------
+### 09. DELETE - Eliminar clase
+### Esperado: 204 No Content
+### ------------------------------------------------------------
+DELETE {{mock_url}}/clases/1
+Accept: application/json
+
+
+### ------------------------------------------------------------
+### 10. DELETE - Eliminar otra clase
+### Esperado: 204 No Content
+### ------------------------------------------------------------
+DELETE {{mock_url}}/clases/2
+Accept: application/json
+
+
+### ============================================================
+### FIN
+### ============================================================
+### Cobertura:
+###   GET    = 3
+###   POST   = 2
+###   PUT    = 1
+###   PATCH  = 2
+###   DELETE = 2
+###   TOTAL  = 10
+### ============================================================
